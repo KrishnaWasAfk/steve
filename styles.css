@@ -1,0 +1,243 @@
+body {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+}
+
+h1 {
+    font-family: heebo;
+}
+
+.heading {
+    grid-column: span 8;
+    display: flex;
+    justify-content: center;
+}
+
+.blank {
+    grid-column: span 8;
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    height: 600px;
+    width: 400px;
+    display: grid;
+    grid-template-columns: repeat(8 , 50px);
+    grid-template-rows: repeat(12, 50px);
+    margin-top: 70px;
+}
+
+#one {
+    background-color: #261a0a;
+    grid-column-start: 1;
+    grid-column-end: 9;
+}
+
+#two {
+    background-color: #261a0a;
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+
+#three {
+    background-color: #332411;
+}
+
+#four {
+    background-color: #432b12;
+    grid-column-start: 5;
+    grid-column-end: 7;
+}
+
+#five {
+    background-color: #2d1f0e;
+    grid-column-start: 7;
+    grid-column-end: 9;
+}
+
+#six {
+    background-color: #2b1e0d;
+}
+
+#seven {
+    background-color: #b7886c;
+    grid-column-start: 2;
+    grid-column-end: 4;
+}
+
+#eight {
+    background-color: #c79681;
+}
+
+#nine {
+    background-color: #bc8a72;
+    grid-column-start: 5;
+    grid-column-end: 7;
+}
+
+#ten {
+    background-color: #c79681;
+}
+
+#eleven {
+    background-color: #261a0a;
+}
+
+#twelve {
+    background-color: #aa7c67;
+}
+
+#thirteen {
+    background-color: #b4856c;
+}
+
+#fourteen {
+    background-color: #aa7c67;
+    grid-column-start: 3;
+    grid-column-end: 5;
+}
+
+#fifteen {
+    background-color: #bb8972;
+    grid-column-start: 5;
+    grid-column-end: 7;
+}
+
+#sixteen {
+    background-color: #bc8a72;
+    grid-column-start: 7;
+    grid-column-end: 9;
+}
+
+#seventeen {
+    background-color: #b4856c;
+}
+
+#eighteen {
+    background-color: #fefffe;
+}
+
+#nineteen {
+    background-color: #2420ab;
+}
+
+#twenty {
+    background-color: #b57a66;
+}
+
+#twentyone {
+    background-color: #bb8972;
+}
+
+#twentytwo {
+    background-color: #2420ab;
+}
+
+#twentythree {
+    background-color: #fefffe;
+}
+
+#twentyfour {
+    background-color: #aa7c67;
+}
+
+#twentyfive {
+    background-color: #9d6246;
+}
+
+#twentysix {
+    background-color: #b37a63;
+    grid-column: span 2;
+}
+
+#twentyseven {
+    background-color: #6a4131;
+    grid-column: span 2;
+}
+
+#twentyeight {
+    background-color: #be896d;
+}
+
+#twentynine {
+    background-color: #a36a46;
+    grid-column: span 2;
+}
+
+#thirty {
+    background-color: #975f41;
+    grid-column: span 2;
+}
+
+#thirtyone {
+    background-color: #41200d;
+}
+
+#thirtytwo {
+    background-color: #8a4d3c;
+    grid-column: span 2;
+}
+
+#thirtythree {
+    background-color: #45220e;
+}
+
+#thirtyfour {
+    background-color: #815238;
+    grid-column: span 2;
+}
+
+#thirtyfive {
+    background-color: #6f442d;
+    grid-column: span 2;
+}
+
+#thirtysix {
+    background-color: #41200d;
+    grid-column: span 4;
+}
+
+#thirtyseven {
+    background-color: #83553b;
+}
+
+#thirtyeight {
+    background-color: #7a4e33;
+}
+
+/* for regular smartphones*/
+
+@media (min-width: 350px) and (max-width: 430px) {
+    .container {
+    height: 480px;
+    width: 320px;
+    display: grid;
+    grid-template-columns: repeat(8 , 40px);
+    grid-template-rows: repeat(12, 40px);
+    margin-top: 70px;
+    }
+
+    .credit {
+        font-size: 25px;
+    }
+}
+
+/*for small smartphones (iphone 5s)*/
+
+@media (min-width: 300px) and (max-width: 330px) {
+    .container {
+    height: 360px;
+    width: 240px;
+    display: grid;
+    grid-template-columns: repeat(8 , 30px);
+    grid-template-rows: repeat(12, 30px);
+    margin-top: 50px;
+    }
+
+    .credit {
+        font-size: 22px;
+    }
+}
+
